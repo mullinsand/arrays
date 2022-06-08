@@ -16,3 +16,6 @@ coinflip.unshift(true)
 p rope[0]
 #Printing index position 3 for whole will give 4
 p whole[3]
+#length method will report the number of elements in an array
+#rope array (since pop was run on it) has only 3 elements
+p rope.length
