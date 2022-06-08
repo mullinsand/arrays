@@ -10,3 +10,9 @@ whole.push(9)
 dotted.shift
 #unshift will add true to the beginning of coinflip array
 coinflip.unshift(true)
+#Index positions indicate the position a piece of data (element) holds in an array
+#Index positions begin with 0 for the first data entry or element as shown below
+#Printing index position 0 for rope will give octopus
+p rope[0]
+#Printing index position 3 for whole will give 4
+p whole[3]
